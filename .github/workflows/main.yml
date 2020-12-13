@@ -10,7 +10,7 @@ on:
 jobs:
   ci:
     strategy:
-    fail-fast: true
+      fail-fast: true
 
     name: CI (stable)
     runs-on: self-hosted
